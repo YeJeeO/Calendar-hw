@@ -36,7 +36,7 @@ function Month (props){
     
 export default function Calendar(){
 const[value, setValue]=useState();
-let date=new Date();
+let date=new Date(value);
 const year=date.getFullYear();
 const month=date.getMonth();
 
