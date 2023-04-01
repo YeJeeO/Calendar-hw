@@ -27,7 +27,7 @@ function Month (props){
         return (
        
     <table border="1">
-    <div>{monthNames[month]+' '}{year}</div>
+    <caption>{monthNames[month]+' '}{year}</caption>
     {table}
     </table>
         );
