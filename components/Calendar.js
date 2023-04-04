@@ -11,7 +11,7 @@ function Month (props){
     let diff=(next-current)/(1000*3600*24);
     let index=(current.getDay()+6)%7;
     
-    
+        
     const ROWS=6;
     const COLS=7;
     let table=[], tr, k=1-index;
@@ -34,7 +34,7 @@ function Month (props){
     }
     
 export default function Calendar(){
-const[value, setValue]=useState();
+const[value, setValue]=useState(new Date());
 let date=new Date(value);
 const year=date.getFullYear();
 const month=date.getMonth();
