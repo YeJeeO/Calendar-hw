@@ -1,4 +1,4 @@
-// import '../pages/style.css';
+ import '../pages/style.css';
 
 
 
